@@ -4,9 +4,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- @import "scss/bootstrap";
- @import "scss/brand-colors";
-
 
 :root {
   --primary: #007bff;
@@ -17,29 +14,6 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-
-  --brandyellow: #E4BE2D;
-  --branddarkgrey: #423D3D;
-  --brandlightgrey: #828282;
-
-  --secred: #E7382F;
-  --secorange: #F68926;
-  --secgreen: #BBBE38;
-  --secblue: #3D689F;
-  --seclightgrey: #EBEBE9;
-
-  --amber: #FDC012;
-  --blue: #38A4DD;
-  --bluegrey: #607D8B;
-  --brown: #7A5649;
-  --deeppurple: #66499D;
-  --green: #4CAF4E;
-  --lightblue: #06BCD4;
-  --orange: #F2994A;
-  --pink: #E82064;
-  --purple: #903F98;
-  --teal: #009689;
-  --yellow: #FEEA39;
 
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -81,106 +55,6 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
-
-/* CUSTOM STYLES */
-#content {
-  padding-left: 320px;
-}
-#content article {
-  margin-left: 2em;
-}
-.pageBanner {
-  width: 100%;
-  height: 10%;
-  background-color: var(--seclightgrey);
-  padding: 2em 2em;
-  border-radius: 8px;
-  margin-bottom: 2em;
-}
-#sideNavBar {
-  width: 300px;
-  background-color: #423d3d;
-  height: 100%;
-}
-.BrandLogo {
-  margin-bottom: 4em;
-}
-.sideNavMenu {
-  margin: 0 auto;
-  padding: 3em;
-}
-.sideNavMenu ul {
-  padding: 0 0 0 2em;
-  margin-bottom: 1.5em;
-}
-.sideNavMenu ul li a {
-  padding: 0;
-  color: #ffffff;
-}
-.sideNavMenu ul li a:hover {
-  color: #9a8a8a;
-}
-.activeItem {
-  color: #E4BF2E !important;
-}
-.sideNavCat {
-  color: #E4BE2D;
-}
-.sideNavMenu li {
-  list-style: none;
-  color: #ffffff;
-  line-height: 1.8em;
-}
-
-.resourceItem {
-  width: 300px;
-  height: 100%;
-  background-color: #ebebe9;
-}
-
-.color-sample {
-  display: block;
-  width: 175px;
-  height: 175px;
-  border-radius: 8px;
-}
-
-/* Color Cards */
-.brandyellow-card {
-  background-color: var(--brandyellow);
-}
-.branddarkgrey-card {
-  background-color: var(--branddarkgrey);
-}
-.brandlightgrey-card {
-  background-color: var(--brandlightgrey);
-}
-.secred-card {
-  background-color: var(--secred);
-}
-.secorange-card {
-  background-color: var(--secorange);
-}
-.secgreen-card {
-  background-color: var(--secgreen);
-}
-.secblue-card {
-  background-color: var(--secblue);
-}
-
-
-/* Brand Colors */
-.brandyellow {
-  color: var(--brandyellow);
-}
-.branddarkgrey {
-  color: var(--branddarkgrey);
-}
-.brandlightgrey {
-  color: var(--brandlightgrey);
-}
-
-/* END CUSTOM STYLES */
 
 hr {
   box-sizing: content-box;
